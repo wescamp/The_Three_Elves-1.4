@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2008-12-26 14:39+0100\n"
+"POT-Creation-Date: 2008-12-28 01:59+0100\n"
 "PO-Revision-Date: 2008-12-26 14:36+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -13,83 +13,83 @@ msgstr ""
 "20)) ? 1 : 2;\n"
 
 #. [campaign]: id=The Three Elves
-#: The_Three_Elves/_main.cfg:10
+#: The_Three_Elves/_main.cfg:11
 msgid "The Three Elves"
 msgstr ""
 
 #. [campaign]: id=The Three Elves
-#: The_Three_Elves/_main.cfg:12
+#: The_Three_Elves/_main.cfg:13
 msgid "<40,160,40>The Three Elves"
 msgstr ""
 
 #. [campaign]: id=The Three Elves
-#: The_Three_Elves/_main.cfg:13
+#: The_Three_Elves/_main.cfg:14
 msgid "TTE"
 msgstr ""
 
 #. [campaign]: id=The Three Elves
-#: The_Three_Elves/_main.cfg:20
+#: The_Three_Elves/_main.cfg:21
 msgid ""
 "Three elves begun their adventure in the northern swamplands. Will they "
 "become heroes, or they will start another undead expansion?\n"
 " \n"
-"Good for both beginners and expert\n"
+"Good for both beginners and experts\n"
 " \n"
 "6 scenarios + interlude"
 msgstr ""
 
 #. [campaign]: id=The Three Elves
-#: The_Three_Elves/_main.cfg:23
+#: The_Three_Elves/_main.cfg:24
 msgid "Archer"
 msgstr ""
 
 #. [campaign]: id=The Three Elves
-#: The_Three_Elves/_main.cfg:23
+#: The_Three_Elves/_main.cfg:24
 msgid "(Easy)"
 msgstr ""
 
 #. [campaign]: id=The Three Elves
-#: The_Three_Elves/_main.cfg:25
+#: The_Three_Elves/_main.cfg:26
 msgid "Avenger"
 msgstr ""
 
 #. [campaign]: id=The Three Elves
-#: The_Three_Elves/_main.cfg:25
+#: The_Three_Elves/_main.cfg:26
 msgid "(Hard)"
 msgstr ""
 
 #. [about]
-#: The_Three_Elves/_main.cfg:32
+#: The_Three_Elves/_main.cfg:33
 msgid "Campaign Design"
 msgstr ""
 
 #. [about]
-#: The_Three_Elves/_main.cfg:38
+#: The_Three_Elves/_main.cfg:39
 msgid "Campaign Maintenance"
 msgstr ""
 
 #. [entry]
-#: The_Three_Elves/_main.cfg:40
+#: The_Three_Elves/_main.cfg:41
 msgid "Viliam Bur"
 msgstr ""
 
 #. [about]
-#: The_Three_Elves/_main.cfg:44
+#: The_Three_Elves/_main.cfg:45
 msgid "Text corrections"
 msgstr ""
 
 #. [entry]
-#: The_Three_Elves/_main.cfg:46
+#: The_Three_Elves/_main.cfg:47
 msgid "Anezka Bubenickova"
 msgstr ""
 
 #. [about]
-#: The_Three_Elves/_main.cfg:50
+#: The_Three_Elves/_main.cfg:51
 msgid "Also many thanks to:"
 msgstr ""
 
 #. [entry]
-#: The_Three_Elves/_main.cfg:52
+#: The_Three_Elves/_main.cfg:53
 msgid "Db0, Elvish Pillager, Fendrin and zookeeper (yes, not capitalized)"
 msgstr ""
 
@@ -227,10 +227,8 @@ msgid "Find hidden treasure"
 msgstr ""
 
 #. [objective]: condition=lose
-#: The_Three_Elves/scenarios/2_The_golden_chest.cfg:192
 #: The_Three_Elves/scenarios/1_In_to_the_swamp.cfg:171
-#: The_Three_Elves/scenarios/3_Rise_of_the_undead.cfg:238
-msgid "Death of Merhil, Nerelia, or Lahias"
+msgid "Death of Merhil, Nerelia or Lahias"
 msgstr ""
 
 #. [objective]: condition=lose
@@ -252,7 +250,7 @@ msgid ""
 "tips can help you:\n"
 " \n"
 " \n"
-"Archer is good in ranger attacks, very powerful in forests, but very "
+"Archer is good in ranged attacks, very powerful in forests, but very "
 "vulnerable out of them.\n"
 " \n"
 "Fighter is good in melee combat and defense. In time, he can learn "
@@ -334,7 +332,7 @@ msgstr ""
 #: The_Three_Elves/scenarios/1_In_to_the_swamp.cfg:307
 msgid ""
 "We do not have any gold, but there is a great treasure, a chest full of "
-"gold. But nobody knows, where is it buried. By the legend, gold chest is "
+"gold. But nobody knows, where is it buried. By the legend, chest is "
 "somewhere near the river, northeast of there, in the center of this region. "
 "Somewhere close to the old river basin. It was hidden by Alfred Mahel, "
 "famous as master lumberjack. I will give you a half of the treasure, if you "
@@ -458,7 +456,7 @@ msgstr ""
 msgid ""
 "Gold is treacherous. Its great value caused many problems through the "
 "history. Sometimes it even makes enemies from recent allies. Enemies "
-"prepared to kill eachother as fast as possible."
+"prepared to kill each other as fast as possible."
 msgstr ""
 
 #. [unit]: type=Elvish Shaman, description=Durondela
@@ -528,6 +526,12 @@ msgstr ""
 msgid "Samin Leafstel must surrender to you"
 msgstr ""
 
+#. [objective]: condition=lose
+#: The_Three_Elves/scenarios/2_The_golden_chest.cfg:192
+#: The_Three_Elves/scenarios/3_Rise_of_the_undead.cfg:238
+msgid "Death of Merhil, Nerelia, or Lahias"
+msgstr ""
+
 #. [message]: description=Ted
 #: The_Three_Elves/scenarios/2_The_golden_chest.cfg:217
 msgid "Time for our revenge has come! Surrender to our united forces!"
@@ -559,7 +563,7 @@ msgstr ""
 msgid ""
 "I do recognize you quite well, silly girl. But hear my words - your deads "
 "were already source of much evil. I can't leave you alive, any of you. "
-"Prepare to attack!"
+"Prepare to my attack!"
 msgstr ""
 
 #. [message]: description=Merhil
@@ -706,9 +710,9 @@ msgstr ""
 #. [part]
 #: The_Three_Elves/scenarios/3_Rise_of_the_undead.cfg:17
 msgid ""
-"Not far to the north, the first hordes of Undead has shown up. Lahias "
-"thinks, that this will be a great test for his new abilities. But his power "
-"will be nothing against this new evil."
+"Not far to the north, first hordes of Undead has shown up. Lahias thinks, "
+"that this will be a great test for his new abilities. But his power will be "
+"nothing against this new evil."
 msgstr ""
 
 #. [part]
@@ -792,7 +796,8 @@ msgstr ""
 #. [message]: description=Ted
 #: The_Three_Elves/scenarios/3_Rise_of_the_undead.cfg:294
 msgid ""
-"Die you tree loving beasts! Soon you will become a servants of our Dark Queen"
+"Die you tree loving beasts! Soon you will become a servants of our Dark "
+"Queen!"
 msgstr ""
 
 #. [message]: description=Herbert
@@ -953,13 +958,13 @@ msgstr ""
 msgid ""
 "It was an elvish lady, but an unknown monster changed her into a very "
 "powerful undead. She gather an undead army and hypnotize the orcs to fight "
-"for her. Now their main forces are marching to the Brotherhood of Light! I "
+"for her. Now their main forces are marching to the Brotherhood of light! I "
 "also saw a wandering white mage going this direction."
 msgstr ""
 
 #. [message]: speaker=Alas the wanderer
 #: The_Three_Elves/scenarios/3_Rise_of_the_undead.cfg:522
-msgid "I was that wanderer."
+msgid "I am that wanderer."
 msgstr ""
 
 #. [message]: speaker=Lebiel
@@ -1018,7 +1023,7 @@ msgstr ""
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:21
 msgid ""
 "Elves was in a great hurry to the city of Narcifall, well known as the "
-"Brotherhood of Light. This city, created by the holy magic of the white "
+"Brotherhood of light. This city, created by the holy magic of the white "
 "mages and hands of the elves, is now under attack."
 msgstr ""
 
@@ -1127,6 +1132,7 @@ msgstr ""
 
 #. [message]: description=Trug
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:204
+#: The_Three_Elves/scenarios/4_The_great_march.cfg:240
 msgid "You can no go you crash by Trug."
 msgstr ""
 
@@ -1149,11 +1155,6 @@ msgstr ""
 #. [option]: description=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:236
 msgid "We are here to kill all ugly trolls!"
-msgstr ""
-
-#. [message]: description=Trug
-#: The_Three_Elves/scenarios/4_The_great_march.cfg:240
-msgid "You can no go you crash by Trug"
 msgstr ""
 
 #. [message]: description=Nerelia
@@ -2119,7 +2120,7 @@ msgstr ""
 #. [message]: speaker=Adena
 #: The_Three_Elves/scenarios/6_Kill_the_elves.cfg:964
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:972
-msgid "So much death. So my agony. Only sun can feel the cold of his heart."
+msgid "So much death. So much agony. Only sun can feel the cold of his heart."
 msgstr ""
 
 #. [message]: speaker=Sidonia
@@ -2178,8 +2179,10 @@ msgstr ""
 #. [message]: description=Sidonia
 #. [message]: description=Captain Jagr
 #: The_Three_Elves/scenarios/6_Kill_the_elves.cfg:1035
+#: The_Three_Elves/scenarios/6_Kill_the_elves.cfg:1134
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:1043
-msgid "Citizens of Carcifall are sending 100 gold to all of us."
+#: The_Three_Elves/scenarios/6_Final_assault.cfg:1142
+msgid "Citizens of Carcifall are sending 100 gold to each of us."
 msgstr ""
 
 #. [message]: speaker=Sidonia
@@ -2226,13 +2229,6 @@ msgstr ""
 msgid "I am sure that this dragon can help us."
 msgstr ""
 
-#. [message]: description=Sidonia
-#. [message]: description=Captain Jagr
-#: The_Three_Elves/scenarios/6_Kill_the_elves.cfg:1134
-#: The_Three_Elves/scenarios/6_Final_assault.cfg:1142
-msgid "Citizens of Carcifall are sending 100 gold to each of us."
-msgstr ""
-
 #. [message]: speaker=unit
 #: The_Three_Elves/scenarios/6_Kill_the_elves.cfg:1144
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:1152
@@ -2261,15 +2257,15 @@ msgstr ""
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:1213
 msgid ""
 "Yes, she changed her name to Tar Dem Lafanar. I killed her at the bridge. I "
-"am sorry, I am so sorry for that attack on Cardifall."
+"am sorry, I am so sorry for that attack on Carcifall."
 msgstr ""
 
 #. [message]: description=Samin Leafstel
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:1217
 msgid ""
 "Evil is defeated, together we made it. And by the way, you saved my life, "
-"and now I repaied it to you. Farewell, friends. Heal the wounded, and than "
-"we can celebrate our success."
+"and now I repaied it to you. Heal the wounded, and than we can celebrate our "
+"success."
 msgstr ""
 
 #. [message]: description=Trohak
