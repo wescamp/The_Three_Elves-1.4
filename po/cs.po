@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2009-03-04 02:10+0100\n"
-"PO-Revision-Date: 2009-03-02 21:43+0100\n"
+"PO-Revision-Date: 2009-03-09 19:23+0100\n"
 "Last-Translator: Vladimír Slávik <slavik.vladimir@seznam.cz>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,6 @@ msgstr "OTE"
 
 #. [campaign]: id=The Three Elves
 #: The_Three_Elves/_main.cfg:21
-#, fuzzy
 msgid ""
 "Three elves have just begun their adventure in the northern swampland. Will "
 "they become heroes or will they be responsible for another undead "
@@ -39,11 +38,11 @@ msgid ""
 "6 scenarios + interlude"
 msgstr ""
 "Tři elfové se pustili do dobrodružstí v severních močálech. Stanou se z nich "
-"hrdinové nebo odstartují další útok nemrtvých?\n"
+"hrdinové nebo se stanou zodpovědní za další útok nemrtvých?\n"
 " \n"
 "Vhodné pro začátečníky i experty\n"
 " \n"
-"6 scenářů + mezihra"
+"6 scénářů + mezihra"
 
 #. [campaign]: id=The Three Elves
 #: The_Three_Elves/_main.cfg:24
@@ -218,15 +217,13 @@ msgstr "Nemrtví"
 
 #. [side]: type=Dark Sorcerer, description=Mal'Der
 #: The_Three_Elves/scenarios/1_Into_the_swamp.cfg:116
-#, fuzzy
 msgid "Mal'Der"
-msgstr "Mal Der Nal"
+msgstr "Mal'Der"
 
 #. [side]: type=Dark Adept, type=Dark Sorcerer, description=Kad'Len
 #: The_Three_Elves/scenarios/1_Into_the_swamp.cfg:152
-#, fuzzy
 msgid "Kad'Len"
-msgstr "Kad Len Tal"
+msgstr "Kad'Len"
 
 #. [objective]: condition=win
 #: The_Three_Elves/scenarios/1_Into_the_swamp.cfg:164
@@ -254,7 +251,6 @@ msgstr "Vyprší čas"
 
 #. [message]: speaker=narrator
 #: The_Three_Elves/scenarios/1_Into_the_swamp.cfg:204
-#, fuzzy
 msgid ""
 "Greetings! My name is Lahias. Choose the path which I shall follow.\n"
 " \n"
@@ -279,21 +275,29 @@ msgid ""
 "misses the attack force. It is NOT a very wise choice for this campaign. can "
 "become Rider."
 msgstr ""
-"Ahoj. Jmenuji se Lahias. Můžeš si vybrat, čím se stanu.\n"
+"Zdravím! Jmenuji se Lahias. Můžeš si vybrat, čím se stanu:\n"
 " \n"
 " \n"
-"Můžu se stát obratným lučištníkem, silným bojovníkem nebo rychlým "
-"průzkumníkem. Všechno je v tvých rukou. Můžou se ti hodit tyto informace:\n"
+"Můžu se stát obratným lučištníkem, silným bojovníkem, vyváženým hraničářem "
+"nebo rychlým průzkumníkem. Všechno je teď v tvých rukou. Můžou se ti hodit "
+"tyto nápovědy:\n"
 " \n"
 " \n"
-"Lučištník vyniká v útoku na dálku. Je velmi mocný v lese, ale zranitelný "
-"mimo něj. Může se též naučit, jak se v lese skrývat.\n"
+"Lučištník vyniká v útoku na dálku. Je velmi mocný v lese, ale zároveň velmi "
+"zranitelný mimo něj. Může se též naučit, jak se v lese skrývat. Může se "
+"posléze stát Hraničářem nebo Střelcem.\n"
 " \n"
-"Bojovník vyniká v boji na blízko a disponuje velmi dobrou obrannou. Může se "
-"též časem naučit schopnost velení.\n"
+"Bojovník nejvíce vyniká v boji na blízko a disponuje velmi dobrou obrannou. "
+"Časem se též může naučit schopnost velení. Může se posléze stát Hrdinou nebo "
+"Kapitánem.\n"
+" \n"
+"Šedý hraničář je všestranná jednotka, silná v noci, ale slabá během dne. "
+"Časem jeho síla rapidně roste. Může se posléze stát Stříbrným hraničářem "
+"nebo Elfím lordem.\n"
 " \n"
 "Průzkumník je výtečný v průzkumu a v rychlých diverzích na bitevním poli, "
-"ale postrádá útočnou sílu. NEPŘEDSTAVUJE moc moudrou volbu pro tuto kampaň."
+"ale postrádá útočnou sílu. NEPŘEDSTAVUJE moc moudrou volbu pro tuto kampaň. "
+"Může se posléze stát Jezdcem."
 
 #. [option]: speaker=narrator
 #: The_Three_Elves/scenarios/1_Into_the_swamp.cfg:206
@@ -594,7 +598,7 @@ msgstr "Herbert"
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:504
 #: The_Three_Elves/scenarios/2_The_golden_chest.cfg:132
 msgid "Samin"
-msgstr ""
+msgstr "Samin"
 
 #. [unit]: type=Poacher, description=Nameless one
 #. [unit]: type=Orcish Assassin, description=Nameless one
@@ -637,9 +641,8 @@ msgstr "Poraz Teda"
 
 #. [objective]: condition=win
 #: The_Three_Elves/scenarios/2_The_golden_chest.cfg:186
-#, fuzzy
 msgid "Force Samin to surrender to you"
-msgstr "Přinuť Samina Leafstela vzdát se"
+msgstr "Přinuť Samina vzdát se ti"
 
 #. [objective]: condition=lose
 #: The_Three_Elves/scenarios/2_The_golden_chest.cfg:190
@@ -665,15 +668,14 @@ msgstr ""
 
 #. [message]: description=Samin
 #: The_Three_Elves/scenarios/2_The_golden_chest.cfg:224
-#, fuzzy
 msgid ""
 "My name is Samin and I am the chief of one of these human villages. How did "
 "I become what I am is not your business. Here I stand to destroy anyone who "
 "threatens my new home."
 msgstr ""
-"Jmenuji se Samin Leafstel a jsem náčelník jedné z těch lidských vesnic. Jak "
-"jsem se stal tím, čím jsem, není tvá věc. Teď tu stojím a zničím každého, "
-"kdo ohrozí můj nový domov."
+"Jmenuji se Samin a jsem náčelník jedné z těch lidských vesnic. Jak jsem se "
+"stal tím, čím jsem, není tvá věc. Teď tu stojím abych zničil každého, kdo "
+"ohrožuje můj nový domov."
 
 #. [message]: description=Nerelia
 #: The_Three_Elves/scenarios/2_The_golden_chest.cfg:228
@@ -700,7 +702,7 @@ msgstr "Mořští lidé z dalekých moří, volám vás na pomoc."
 #. [unit]: type=Elvish Archer, description=Harolin
 #: The_Three_Elves/scenarios/2_The_golden_chest.cfg:287
 msgid "female^Harolin"
-msgstr ""
+msgstr "Harolína"
 
 #. [message]: speaker=Ted
 #: The_Three_Elves/scenarios/2_The_golden_chest.cfg:296
@@ -709,9 +711,8 @@ msgstr "Rozdrťte je, chlapi!"
 
 #. [message]: speaker=Harolin
 #: The_Three_Elves/scenarios/2_The_golden_chest.cfg:300
-#, fuzzy
 msgid "No! Spare my life... please..."
-msgstr "Ne! Ušetři můj život..."
+msgstr "Ne! Ušetři můj život... prosím..."
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/2_The_golden_chest.cfg:318
@@ -874,15 +875,13 @@ msgstr "Poutník Allas"
 #. [side]: type=Lich, description=Tademanar
 #: The_Three_Elves/scenarios/Interlude_river_crossing.cfg:48
 #: The_Three_Elves/scenarios/3_Rise_of_the_undead.cfg:128
-#, fuzzy
 msgid "Tademanar"
-msgstr "Tar Dem Lafanar"
+msgstr "Tademanar"
 
 #. [side]: type=Orcish Warlord, description=Ngo'rok
 #: The_Three_Elves/scenarios/3_Rise_of_the_undead.cfg:161
-#, fuzzy
 msgid "Ngo'rok"
-msgstr "Narok"
+msgstr "Ngo'rok"
 
 #. [side]: type=Orcish Warrior, description=Nashtok
 #: The_Three_Elves/scenarios/3_Rise_of_the_undead.cfg:180
@@ -892,13 +891,11 @@ msgstr "Naštok"
 #. [objective]: condition=win
 #: The_Three_Elves/scenarios/Interlude_river_crossing.cfg:58
 #: The_Three_Elves/scenarios/3_Rise_of_the_undead.cfg:201
-#, fuzzy
 msgid "Defeat lich Tademanar"
-msgstr "Poraz liche Tar Dem Lafanara"
+msgstr "Poraz liche Tademanara"
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/3_Rise_of_the_undead.cfg:238
-#, fuzzy
 msgid ""
 " \n"
 "Select training for your warrior, Zerenhil:\n"
@@ -913,9 +910,11 @@ msgstr ""
 " \n"
 "Vyber, na co povýší tvůj válečník Zerenhil:\n"
 " \n"
-"Elfí velmož je silný pěšák, efektivní v boji na blízko i na dálku.\n"
+"Elfí lord je silný pěšák, efektivní v boji na blízko i na dálku.  Je silný "
+"proti nemrtvým.\n"
 " \n"
-"Paladin je rychlý jezdec se schopností ošetření, ale bez útoku na dálku.\n"
+"Stříbrný hraničář je silný lučištník, efektivní v boji na blízko i na dálku. "
+"Je silný během noci.\n"
 " "
 
 #. [option]: description=Merhil
@@ -1075,9 +1074,8 @@ msgstr ""
 
 #. [unit]: type=Orcish Warrior, description=To'rok
 #: The_Three_Elves/scenarios/3_Rise_of_the_undead.cfg:427
-#, fuzzy
 msgid "To'rok"
-msgstr "Trohak"
+msgstr "To'rok"
 
 #. [message]: speaker=To'rok
 #: The_Three_Elves/scenarios/3_Rise_of_the_undead.cfg:453
@@ -1183,34 +1181,32 @@ msgstr "4) Velký pochod"
 
 #. [part]
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:21
-#, fuzzy
 msgid ""
 "The elves were in a great hurry to the city of Carcifall, well known as the "
 "Brotherhood of Light. This city, created by the holy magic of the white "
 "mages together with the hands of the elves, have already been under attack."
 msgstr ""
 "Elfové pospíchali do města Carcifall, známého jako místo Bratrstva světla. "
-"Toto město, vytvořené svatou magií bílých mágů a rukama elfů, je zrovna pod "
-"útokem."
+"Toto město, vytvořené společně svatou magií bílých mágů a rukama elfů, bylo "
+"zrovna pod útokem."
 
 #. [part]
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:24
-#, fuzzy
 msgid ""
 "Merhil assumed that such a city certainly had a very powerful defences. But "
 "was he right? Is there a city which can stand such a massive attack? Growing "
 "darkness was making the march much more difficult. He wondered what was "
 "causing these lands to be so... hostile."
 msgstr ""
-"Merhil si myslí, že toto město má velmi dobrou obranu. Ale možná se mýlí. A "
-"narůstající temnota ztěžuje pohyb. Co se může nacházet v těchto temných "
-"místech?"
+"Merhil předpokládal, že takové město jistě bude mít velmi dobrou obranu. Ale "
+"nemýlil se? Může vůbec město odolat tak masívnímu útoku? Narůstající temnota "
+"ztěžovala pochod. Udivovalo ho, co způsobilo, že je tento kraj tak... "
+"nehostinný."
 
 #. [part]
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:27
-#, fuzzy
 msgid "Orcs? Undead? Or was it something more?"
-msgstr "Skřeti, nemrtví nebo možná něco víc..."
+msgstr "Skřeti? Nemrtví? Nebo možná něco víc?"
 
 #. [side]: type=Saurian Oracle, description=Got'skal
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:63
@@ -1235,9 +1231,8 @@ msgstr "Narok"
 
 #. [objective]: condition=win
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:120
-#, fuzzy
 msgid "Merhil must capture the fort in the south-west."
-msgstr "Merhil musí obsadit pevnost na jihovýchodě."
+msgstr "Merhil musí obsadit pevnost na jihozápadě."
 
 #. [objective]: condition=lose
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:124
@@ -1246,7 +1241,6 @@ msgstr "Merhil nebo Nerelie zemře"
 
 #. [unit]: type=Elvish Archer, description=Nosita
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:141
-#, fuzzy
 msgid "female^Nosita"
 msgstr "Nosita"
 
@@ -1257,33 +1251,29 @@ msgstr "Trug"
 
 #. [message]: speaker=Lebiel
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:169
-#, fuzzy
 msgid "We have to move west very quickly or else... Look, lava!"
-msgstr "Musíme se rychle přesunout na západ nebo... láva!"
+msgstr "Musíme se hodně rychle přesunout nebo... Koukejte, láva!"
 
 #. [message]: speaker=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:173
-#, fuzzy
 msgid ""
 "I don't know these parts very well, but this lava looks very unnatural. Some "
 "sorcerer was probably having some fun here."
 msgstr ""
-"Neznám dobře tento kraj, ale ta láva nevypadá moc přirozeně. Nějaký čaroděj "
-"si tropil šoufky."
+"Neznám dobře tyto kraje, ale ta láva nevypadá moc přirozeně. Nějaký čaroděj "
+"si tu asi tropil šoufky."
 
 #. [message]: speaker=Nerelia
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:177
-#, fuzzy
 msgid ""
 "But that troll over there looks quite natural. How about asking him what is "
 "going on here?"
 msgstr ""
-"Ale ten troll vypadá až příliš přirozeně. Co kdyby jsme se ho zeptali, co se "
-"tu děje?"
+"Ale ten troll tamhle vypadá až dost přirozeně. Co kdyby jsme se ho zeptali, "
+"kam odtud dál?"
 
 #. [message]: speaker=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:181
-#, fuzzy
 msgid "Are you sure that this is a good idea?"
 msgstr "Jsi si jistá, že je to dobrý nápad?"
 
@@ -1293,6 +1283,8 @@ msgid ""
 "He looks like one of that evil ones, but he cannot face us alone. Let's have "
 "a closer look at him."
 msgstr ""
+"Vypadá jako jeden z těch zlých, ale nemůže se přece s námi sám měřit. Pojďme "
+"se na něj podívat blíž."
 
 #. [message]: speaker=Nerelia
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:189
@@ -1300,6 +1292,8 @@ msgid ""
 "Excuse me, mr... troll. Can you tell us what is happening here? And what is "
 "that lava doing over there?"
 msgstr ""
+"Promiňte pane... troll. Můžete nám říci, co se tu děje? A co tam dělá ta "
+"láva?"
 
 #. [message]: description=Trug
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:196
@@ -1307,6 +1301,8 @@ msgid ""
 "Halt! What is puny elfs doing here? Speak quickly or Trug crush your skulls "
 "like... skulls!"
 msgstr ""
+"Stát! Co tu nedomrlec elf dělat? Říkat rychle nebo Trug být rozbít vaše leb "
+"jako... leb!  "
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:201
@@ -1315,36 +1311,33 @@ msgstr "My..."
 
 #. [option]: description=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:203
-#, fuzzy
 msgid ""
 "We are heading west to protect the city of Carcifall from the invasion of "
 "orcs and undead."
-msgstr "Putujeme na západ osvobodit Carcifall od skřetů a nemrtvých."
+msgstr "Míříme na západ ochránit Carcifall od invaze skřetů a nemrtvých."
 
 #. [message]: description=Trug
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:207
-#, fuzzy
 msgid "You no can go, Trug eat you."
-msgstr "Vy moct jít západ."
+msgstr "Vy nemoct jít, Trug sežrat."
 
 #. [option]: description=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:213
-#, fuzzy
 msgid "We are hunting that traitor Samin Leafstel."
-msgstr "Putujeme na západ zabít toho zrádce Samina Leafstela."
+msgstr "Pronásledujeme toho zrádce Samina Leafstela."
 
 #. [message]: description=Trug
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:217
 msgid "Oh, maybe you can go west. You eat Sama... elf."
-msgstr ""
+msgstr "Eh, možná vy moct jít západ. Zašlápnout Samijana elfa."
 
 #. [option]: description=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:226
-#, fuzzy
 msgid ""
 "We are marching west to attack Carcifall, as the Dark Queen has commanded us."
 msgstr ""
-"Jdeme na západ zaútočit na Carcifall, jak nám to temná královna přikázala."
+"Pochodujeme na západ zaútočit na Carcifall, jak nám to Temná Královna "
+"přikázala."
 
 #. [message]: description=Trug
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:230
@@ -1352,68 +1345,68 @@ msgid ""
 "Queen? Hm... Me guess you can go west. Queen is good. Queen send food to "
 "Trug. Food come tied and no have weapons."
 msgstr ""
+"Královna? Hm... Myslet vy jít západ. Královna hodná. Posílat Trug jídlo. "
+"Jídlo přijít svázaný a bez zraň."
 
 #. [option]: description=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:239
-#, fuzzy
 msgid "We are here to kill every ugly, stinky troll who crosses our path!"
-msgstr "Jsme tu, abysme zabili všechny hnusné trolly!"
+msgstr ""
+"Jsme tu, abysme zabili všechny hnusné smradlavé trolly, co nám zkříží cestu!"
 
 #. [message]: description=Trug
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:243
 msgid "Youuuu! Bad, bad elf. Me eat you! No. Me crush your skull and eat you!"
 msgstr ""
+"Tyyyy! Ošlivá, ošklivá elf. Já sežeru! Ne. Já rozbiju tvuj leb a sežeru!"
 
 #. [message]: description=Nerelia
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:253
-#, fuzzy
 msgid ""
 "I have a very bad feeling about that journey of Lahias. Do you think he is "
 "allright? I hope he is not wounded or... something worse."
 msgstr ""
-"Mám špatný pocit ohledně Lahiase. Myslíš, že je v pořádku? Není zraněný nebo "
-"něco horšího?"
+"Mám špatný pocit ohledně cesty, co podnikl Lahias. Myslíš, že je v pořádku? "
+"Doufám, že není zraněný nebo..."
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:257
-#, fuzzy
 msgid "No need to worry, he is strong and witty."
-msgstr "Neboj se, je silný a statečný."
+msgstr "Neboj se, je silný a duchaplný."
 
 #. [message]: description=Nerelia
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:261
-#, fuzzy
 msgid ""
 "But I do not see him. It seams he is late. He may be in a very difficult "
 "situation right now."
 msgstr ""
-"Nikde ho ale nevidím. Možná se zdržel. Možná je uprostřed velmi těžkého boje."
+"Nikde ho ale nevidím. Vypadá to, že se zdržel. Možná je teď uprostřed "
+"obrovských potíží."
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:265
-#, fuzzy
 msgid "Or he may be closer to the Carcifall then we are as well."
-msgstr "Nebo je Carcifallu blíž než my."
+msgstr "Nebo je možná Carcifallu blíž než jsme teď my."
 
 #. [message]: description=Nerelia
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:269
 msgid "Sidonia might help us now. I will try to contact her."
-msgstr ""
+msgstr "Sidonie by nám teď mohla pomoct. Pokusím se jí kontaktovat."
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:273
 msgid "Sidonia? That crazy sorceress?!? Are you sure that she will help us?"
-msgstr ""
+msgstr "Sidonie? Ta cáklá čarodějka?!? Jsi si jistá, že nám pomůže?"
 
 #. [message]: description=Nerelia
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:277
 msgid "Yes, I trust my sister."
-msgstr ""
+msgstr "Jsem, důvěřuji své sestře."
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:281
 msgid "Sister? You are full of surprises, my darlin'"
-msgstr ""
+msgstr "Sestře? Jsi plná překvapení, drahá!"
 
 #. [message]: speaker=narrator
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:289
@@ -1422,6 +1415,8 @@ msgid ""
 "As the sound fades everyone can be sure that their progress will be easier "
 "now."
 msgstr ""
+"Hlasy, neznámé pro mnohé, ale známé pro Nerelii, šeptaly ve větru. Jak "
+"slábly, každý si mohl být jist, že to na čem dělají, už bude snažší.  "
 
 #. [unit]: type=Wolf Rider, description=Groshak
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:305
@@ -1440,52 +1435,47 @@ msgstr "Mufi"
 
 #. [message]: description=Groshak
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:328
-#, fuzzy
 msgid ""
 "To the city, quick! Pillage every single... what are these elves doing here?"
-msgstr "Do města, rychle! Všechno vyrabujte... co tu dělají ty elfové?"
+msgstr "Do města, rychle! Vyrabujte každý... co tu dělaj ty elfové?"
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:332
-#, fuzzy
 msgid "Hey you, are you friends of Ngorok?"
-msgstr "Hej jezdci, jste Ngorokovi přátelé?"
+msgstr "Hej vy, jste Ngorokovi přátelé?"
 
 #. [message]: description=Groshak
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:336
-#, fuzzy
 msgid "Ngorok?! Weakling Ngorok is a traitor! We are fighting for the Queen."
-msgstr "Ngorok? Ngorok je zrádce! My bojujem za královnu."
+msgstr "Ngorok?! Slaboch Ngorok je zrádce! My bojujem za Královnu."
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:340
-#, fuzzy
 msgid ""
 "Well, we are here to kill every last servant of the Queen! To arms, my "
 "friends!"
 msgstr ""
-"Tak fajn, a my jsme tu proto, aby jsme vyhubili její služebníky. Zabte je, "
-"elfové!"
+"Tak fajn, a my jsme tu proto, aby jsme vyhubili všechny zbylé služebníky té "
+"Královny. Do zbraně přátelé!"
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:351
-#, fuzzy
 msgid ""
 "I am slow, too slow. I can never make it in time. Why have I become an "
 "adventurer without having a horse?"
-msgstr "Jsem pomalý, velmi pomalý. Proč jsem se stal dobrodruhem bez koně?"
+msgstr ""
+"Jsem pomalý, velmi pomalý. Nikdy to nestihnu. Proč jsem se stal dobrodruhem "
+"bez koně?"
 
 #. [message]: speaker=Merhil
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:400
-#, fuzzy
 msgid "We are close, I can feel it!"
 msgstr "Jsme blízko, cítím to!"
 
 #. [message]: speaker=Lebiel
 #: The_Three_Elves/scenarios/4_The_great_march.cfg:404
-#, fuzzy
 msgid "Yes, we are nearly there."
-msgstr "Už jsme skoro tam."
+msgstr "Ano, už jsme skoro tam."
 
 #. [scenario]: id=5) Party for vultures
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:5
@@ -1503,16 +1493,15 @@ msgstr ""
 
 #. [part]
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:24
-#, fuzzy
 msgid "Their only hope lies in Samin and warriors loyal to him."
-msgstr "Jejich jediná naděje je Samin Leafstel a jeho oddaní válečníci."
+msgstr "Jejich jedinou nadějí jsou Samin a jeho oddaní válečníci."
 
 #. [part]
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:27
 msgid ""
 "And unexpected reinforcements lead by Merhil, still nearly unknown "
 "adventurer."
-msgstr ""
+msgstr "A nečekané posily vedené Merhilem, stále takřka neznámým dobrodruhem."
 
 #. [unit]: type=Elvish Enchantress, description=Sidonia
 #. [option]: description=Lahias
@@ -1528,7 +1517,6 @@ msgstr "Kapitán Jágr"
 
 #. [side]: type=White Mage, description=Narven
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:165
-#, fuzzy
 msgid "female^Narven"
 msgstr "Narven"
 
@@ -1540,7 +1528,7 @@ msgstr "Tarku"
 #. [side]: type=Lich, description=Fan'to'mas
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:228
 msgid "Fan'to'mas"
-msgstr ""
+msgstr "Fan'to'mas"
 
 #. [side]: type=Nightgaunt, description=Ghost of Navigator
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:249
@@ -1554,9 +1542,8 @@ msgstr "Ubraň město"
 
 #. [objective]: condition=lose
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:263
-#, fuzzy
 msgid "Death of Sidonia, Samin, Merhil or Nerelia"
-msgstr "Sidonie, Samin Leafstel nebo Nerelie zemře"
+msgstr "Sidonie, Samin, Merhil nebo Nerelie zemře"
 
 #. [unit]: type=Mage, description=Tarsos
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:295
@@ -1625,9 +1612,8 @@ msgstr "Neril"
 
 #. [message]: description=Sahias
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:536
-#, fuzzy
 msgid "In the name of Samin, remove this black plague!"
-msgstr "Ve jménu Samina Leafstela, zničme tuto černou nákazu!"
+msgstr "Ve jménu Samina, zničme tuto černou zkázu!"
 
 #. [message]: description=Samin
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:540
@@ -1682,12 +1668,12 @@ msgstr ""
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:564
 msgid "Hi. Where can I have some drink?"
-msgstr ""
+msgstr "Nazdárek. Kde tu dostanu něco k pití?"
 
 #. [message]: description=Samin
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:568
 msgid "Hey! I know you - you leaded that rebelion in the swamps, right?"
-msgstr ""
+msgstr "Hej! Já tě znám - ty jsi vedl tu rebélii v bažinách, že jo? "
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:572
@@ -1696,21 +1682,24 @@ msgid ""
 "wretched undead. Great battle is upon us, so today you will see our real "
 "skills. Ally?"
 msgstr ""
+"Jasně. Poslouchej, přivedl jsem dost zkušených válečníků a má zášť vůči těm "
+"bídným nemrtvým je velká. Je před námi velká bitva, která prověří naše "
+"skutečné dovednosti. Takže budem spojenci?"
 
 #. [message]: description=Samin
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:576
 msgid "Agree of course. Well, let me introduce you Sidonia."
-msgstr ""
+msgstr "Souhlasím, samozřejmě. Nu, dovol mě představit ti Sidonii."
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:580
 msgid "Nice girl."
-msgstr ""
+msgstr "Pěkná holka."
 
 #. [message]: description=Sidonia
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:584
 msgid "Thanks. But enought chatter. We must prepare troops for battle."
-msgstr ""
+msgstr "Díky. Ale dost tlachání. Musíme se připravit na bitvu."
 
 #. [message]: speaker=Samin
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:599
@@ -1754,7 +1743,7 @@ msgstr "A teď, moje nejsilnější..."
 #. [message]: speaker=Fan'to'mas
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:693
 msgid "Netera numas hivesi!"
-msgstr ""
+msgstr "Netera numas hivesi!"
 
 #. [unit]: type=Walking Corpse, description=Summoned corpse
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:708
@@ -1873,11 +1862,13 @@ msgid ""
 "I can't hold that fire. Its starting to be really hard. We must kill that "
 "death knights."
 msgstr ""
+"Nemohu zastavit ten oheň. Začíná to být dost těžké. Musíme zabít ty rytíře "
+"smrti."
 
 #. [message]: speaker=Samin
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:933
 msgid "Grey Rangers have come!"
-msgstr ""
+msgstr "Šedí hraničáři jsou tu!"
 
 #. [message]: speaker=unit
 #: The_Three_Elves/scenarios/5_Party_for_vultures.cfg:993
@@ -1905,14 +1896,13 @@ msgstr "6) Poslední útok"
 
 #. [part]
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:23
-#, fuzzy
 msgid ""
 "Forces of Merhil and Samin broke the siege of Carcifall. In that very "
 "moment, attacks of the undead and their orc friends become weak and "
 "unorganised."
 msgstr ""
-"Armády Merhila a Samina Leafstela zlomili obležení Carcifallu. Od toho "
-"okamžiku útoky nemrtvých a jejich skřetích spojenců zeslábly a rozdrobily se."
+"Armády Merhila a Samina zlomily obležení Carcifallu. Od toho okamžiku útoky "
+"nemrtvých a jejich skřetích spojenců zeslábly a rozdrobily se."
 
 #. [part]
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:26
@@ -1941,14 +1931,13 @@ msgstr "Ale síla nového vůdce nemrtvých, Lahiase, je také obrovská."
 
 #. [side]: type=Elvish Captain, description=Captain Sparrow
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:64
-#, fuzzy
 msgid "Captain Sparrow"
-msgstr "Kapitán Jágr"
+msgstr "Kapitán Vrabec"
 
 #. [side]: type=Silver Mage, description=Adena
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:92
 msgid "female^Adena"
-msgstr ""
+msgstr "Adena"
 
 #. [side]: type=Orcish Warrior, description=Trohak
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:115
@@ -1972,9 +1961,8 @@ msgstr "Poraz Lahiase"
 
 #. [objective]: condition=lose
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:194
-#, fuzzy
 msgid "Death of Merhil, Nerelia, Adena, Sidonia or Samin"
-msgstr "Merhil, Nerelie nebo Lahias zemře"
+msgstr "Merhil, Nerelie, Adena, Sidonie nebo Samin zemře"
 
 #. [unit]: description=Buhadumn, type=Ancient Wose
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:231
@@ -1986,14 +1974,14 @@ msgstr "Buhadumn"
 #: The_Three_Elves/scenarios/7_Assassins.cfg:111
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:84
 msgid "Skip starting dialogues?"
-msgstr ""
+msgstr "Přeskočit úvodní dialogy?"
 
 #. [option]: description=Merhil
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:252
 #: The_Three_Elves/scenarios/7_Assassins.cfg:114
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:87
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 #. [message]: description=Sidonia
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:256
@@ -2126,7 +2114,7 @@ msgstr "Joooo! Zabííít hnusná smrdlavá elf!"
 #: The_Three_Elves/scenarios/7_Assassins.cfg:139
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:161
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #. [message]: speaker=Tursakk
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:380
@@ -2426,19 +2414,17 @@ msgstr ""
 
 #. [message]: speaker=Sidonia
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:1019
-#, fuzzy
 msgid "Shee is dead! Nerelia is dead!"
-msgstr "Je mrtvý! Merhil je mrtvý!"
+msgstr "Je mrtváá! Nerelie je mrtvá!"
 
 #. [message]: speaker=Merhil
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:1023
-#, fuzzy
 msgid ""
 "Nerelia sacrifieced herself and saved your life. Come, we must rescue Lahias "
 "from his undead body, faster then he kill more elves!"
 msgstr ""
-"Merhil se obětoval a zachránil ti život. Pojďme, musíme zachránit Lahiase z "
-"jeho nemrtvého těla, dříve než zabije víc elfů!"
+"Nerelie se obětovala a zachránila ti život. Pojďme, musíme zachránit Lahiase "
+"z jeho nemrtvého těla, dřív než zabije víc elfů!"
 
 #. [message]: description=Sidonia
 #: The_Three_Elves/scenarios/6_Final_assault.cfg:1047
@@ -2528,9 +2514,8 @@ msgstr ""
 
 #. [scenario]: id=7) Assassins
 #: The_Three_Elves/scenarios/7_Assassins.cfg:5
-#, fuzzy
 msgid "7) Assassins"
-msgstr "Elitní zabiják"
+msgstr "7) Zabijáci"
 
 #. [part]
 #: The_Three_Elves/scenarios/7_Assassins.cfg:21
@@ -2538,49 +2523,48 @@ msgid ""
 "After regaining his power, Lahias is looking for another adventure. "
 "Sometimes it's not needed to come far..."
 msgstr ""
+"Poté, co znovu nabral svou sílu, hledá Lahias další dobrodružství. Někdy "
+"není třeba chodit daleko..."
 
 #. [side]: type=Bandit, description=Marma Natin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:48
-#, fuzzy
 msgid "teamname^rogues"
-msgstr "Elfové"
+msgstr "Ničemové"
 
 #. [side]: type=Bandit, description=Marma Natin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:51
 msgid "Marma Natin"
-msgstr ""
+msgstr "Marma Natin"
 
 #. [objective]: condition=win
 #: The_Three_Elves/scenarios/7_Assassins.cfg:61
 msgid "Defeat Marma Natin"
-msgstr ""
+msgstr "Poraz Marma Natina"
 
 #. [objective]: condition=lose
 #: The_Three_Elves/scenarios/7_Assassins.cfg:65
-#, fuzzy
 msgid "Death of Lahias, Merhil, Adena, Sidonia or Samin"
-msgstr "Merhil, Nerelia nebo Lahias zemře"
+msgstr "Lahias, Merhil, Adena, Sidonie nebo Samin zemře"
 
 #. [message]: description=Sidonia
 #: The_Three_Elves/scenarios/7_Assassins.cfg:118
 msgid "I feel... we are not alone here."
-msgstr ""
+msgstr "Cítím... že tu nejsme sami."
 
 #. [message]: description=Adena
 #: The_Three_Elves/scenarios/7_Assassins.cfg:122
 msgid "Wind if blowing the trees apart, moon don't see that they are smart."
-msgstr ""
+msgstr "Pokud se vítr prohání mezi stromy, ani měsíc nevidí, jak jsou živé."
 
 #. [message]: description=Marma Natin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:126
-#, fuzzy
 msgid "Rogues! Kill that elves!"
-msgstr "6) Zab elfy"
+msgstr "Ničemníci! Zabte ty elfy!"
 
 #. [message]: description=Samin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:130
 msgid "You bandits have no power here!"
-msgstr ""
+msgstr "Vy bandité tady nevládnete!"
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/7_Assassins.cfg:134
@@ -2588,37 +2572,38 @@ msgid ""
 "This will be easy battle, we don't need to hire many warriors. Also this "
 "region looks poor, there are not many villages."
 msgstr ""
+"Bude to snadná bitva, nemusíme najímat moc bojovníků. A taky tahle oblast "
+"vypadá chudě, není tu moc vesnic."
 
 #. [message]: description=Marma Natin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:146
-#, fuzzy
 msgid "Destroy that bridge!"
-msgstr "Přesuň Lahiase na most."
+msgstr "Zničte ten most!"
 
 #. [unit]: type=Rogue, description=Rattek
 #: The_Three_Elves/scenarios/7_Assassins.cfg:152
 msgid "Rattek"
-msgstr ""
+msgstr "Rattek"
 
 #. [unit]: type=Thief, description=Rattek junior
 #: The_Three_Elves/scenarios/7_Assassins.cfg:160
 msgid "Rattek junior"
-msgstr ""
+msgstr "Rattek junior"
 
 #. [message]: description=Samin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:194
 msgid "We must rebuild it and then defeat these bandits."
-msgstr ""
+msgstr "Musíme ho znovu postavit a pak porazit ty bandity."
 
 #. [message]: speaker=Lahias
 #: The_Three_Elves/scenarios/7_Assassins.cfg:207
 msgid "First part of the bridge has been build."
-msgstr ""
+msgstr "První část mostu je hotova."
 
 #. [message]: speaker=Lahias
 #: The_Three_Elves/scenarios/7_Assassins.cfg:219
 msgid "Third part of the bridge has been build."
-msgstr ""
+msgstr "Třetí část mostu je hotova. "
 
 #. [message]: speaker=Merhil
 #: The_Three_Elves/scenarios/7_Assassins.cfg:223
@@ -2626,42 +2611,43 @@ msgid ""
 "Now we can cross the river. Bridge don't need to be completed. Now we can "
 "pass."
 msgstr ""
+"Můžeme teď překročit řeku. Most nemusí být kompletní. Už teď můžem přejít."
 
 #. [message]: speaker=Lahias
 #: The_Three_Elves/scenarios/7_Assassins.cfg:235
 msgid "Bridge has been completed."
-msgstr ""
+msgstr "Most je hotov."
 
 #. [message]: speaker=Marma Natin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:254
 #: The_Three_Elves/scenarios/7_Assassins.cfg:315
 msgid "Prepare to die!"
-msgstr ""
+msgstr "Připravte se na smrt!"
 
 #. [message]: speaker=Marma Natin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:408
 msgid "Bandits! Kill these foolish elves!"
-msgstr ""
+msgstr "Bandité! Zabte ty bláhové elfy!"
 
 #. [message]: speaker=Sidonia
 #: The_Three_Elves/scenarios/7_Assassins.cfg:412
 msgid "Nerve llaste mawea, tun nuvari sattheya!"
-msgstr ""
+msgstr "Nerve llaste mawea, tun nuvari sattheya!"
 
 #. [message]: description=Marma Natin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:517
 msgid "Don't kill me, i was only here to protect this part of the river."
-msgstr ""
+msgstr "Nezabíjej mě, jsem tu jen abych ochránil tuto část řeky."
 
 #. [message]: description=Samin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:521
 msgid "Protect? Who is your master?"
-msgstr ""
+msgstr "Ochránil? Kdo je tvůj pán?"
 
 #. [message]: description=Marma Natin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:525
 msgid "Why should I tell you?"
-msgstr ""
+msgstr "Proč bych ti to měl říkat?"
 
 #. [message]: description=Lahias
 #: The_Three_Elves/scenarios/7_Assassins.cfg:529
@@ -2669,6 +2655,8 @@ msgid ""
 "Okay, you don't need to tell us anything. So now we can kill you slowly, "
 "really slowly. First, I will cut your arms..."
 msgstr ""
+"Jasně, nemusíš nám nic říkat. Takže teď tě můžem zabíjet pomalu, velmi "
+"pomalu. Nedřív ti uříznu ruce..."
 
 #. [message]: description=Marma Natin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:533
@@ -2676,21 +2664,23 @@ msgid ""
 "Stop! Well I will tell you! That ranger is my master. He send me here to "
 "kill you, elves."
 msgstr ""
+"Stop! Dobrá, řeknu vám to! Můj pán je ten hraničář. Poslal mě sem vás zabít, "
+"elfové."
 
 #. [message]: description=Samin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:537
 msgid "Who? Me?"
-msgstr ""
+msgstr "Kdo? Já?"
 
 #. [message]: description=Marma Natin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:541
 msgid "Your brother, your brother! Terrel Leafstel."
-msgstr ""
+msgstr "Tvůj bratr, tvůj bratr! Terrel Leafstel."
 
 #. [message]: description=Samin
 #: The_Three_Elves/scenarios/7_Assassins.cfg:545
 msgid "I don't have any brother. Die now!"
-msgstr ""
+msgstr "Nemám žádného bratra. Zemřeš!"
 
 #. [message]: speaker=Lahias
 #: The_Three_Elves/scenarios/7_Assassins.cfg:552
@@ -2698,12 +2688,13 @@ msgid ""
 "Maybe he lies, but we will do the best if we will go north. Just to see what "
 "is going on."
 msgstr ""
+"Možná lhal, ale uděláme nejlíp, pokud půjdem na sever. Prostě se kouknout, "
+"co se chystá."
 
 #. [scenario]: id=Interlude2 - A new way
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:5
-#, fuzzy
 msgid "Interlude2 - A new way"
-msgstr "Mezihra 2 - Dobro nebo Zlo?"
+msgstr "Mezihra 2 - Nová cesta"
 
 #. [part]
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:18
@@ -2711,11 +2702,13 @@ msgid ""
 "Few days after the battle, Lahias feel that his powers are diminished. "
 "Strange combination of the quickly disappearing..."
 msgstr ""
+"Několi dní po bitvě Lahias pocítil, že se jeho síla zmenšuje. Divná "
+"kombinace rychlého mizení..."
 
 #. [objective]: condition=win
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:42
 msgid "Choose a training for Lahias"
-msgstr ""
+msgstr "Vyber trénink pro Lahiase"
 
 #. [unit]: type=Silver Mage, description=Adena
 #. [option]: description=Lahias
@@ -2727,7 +2720,7 @@ msgstr "Adena"
 #. [message]: description=Lahias
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:91
 msgid "Some dark magic is still inside me. I can feel it."
-msgstr ""
+msgstr "Stále ve mě zbyla nějaká temná magie. Cítím to."
 
 #. [message]: description=Samin Leafstel
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:95
@@ -2735,6 +2728,8 @@ msgid ""
 "Can you describe it? Can you tell us what is still inside you from that "
 "undead curse?"
 msgstr ""
+"Můžeš to popsat? Můžeš nám říct, co to od té nemrtvé kletby v tobě pořád "
+"vězí?"
 
 #. [message]: description=Lahias
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:99
@@ -2744,11 +2739,15 @@ msgid ""
 "the warm from bodies. It makes me very depressed. Still the same: revenge, "
 "slaughter, verrilium, assassinations..."
 msgstr ""
+"Nevím, nemůžu to prohlédnout. Nějaký druh hněv nebo vzteku. Slyšel jsem "
+"vzkaz, temná slova uvnitř mé hlavy. Říkaly mi, abych někoho zabil a vysál z "
+"těch těl teplo života. Sužuje mě to. Pořád to samé: pomsta, masakr, "
+"verrilium, vraždění..."
 
 #. [message]: description=Samin Leafstel
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:103
 msgid "Verrilium?"
-msgstr ""
+msgstr "Verrilium?"
 
 #. [message]: description=Adena
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:107
@@ -2756,32 +2755,33 @@ msgid ""
 "From the past and to the future, long way awaiting you sure. Many death and "
 "too much living, fear of the dark is now killing..."
 msgstr ""
+"Z dávnověku a až do budoucího, dlouhá na tebe jistě cesta čeká.\n"
+"Mnoho smrti a až moc živoucího, teď zabíjí temné, co tak moc leká..."
 
 #. [message]: description=Sidonia
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:111
-#, fuzzy
 msgid "You mean... ?"
-msgstr "Majz? Myslíš jako rozmajznout?"
+msgstr "Myslíš jako... ?"
 
 #. [message]: description=Adena
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:115
 msgid "Yes, exactly."
-msgstr ""
+msgstr "Ano, přesně tak."
 
 #. [message]: description=Lahias
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:119
 msgid "Exactly what? What to the devil is going on? End this game, OK?"
-msgstr ""
+msgstr "Přesně co? Co se to k čertu chystá? Nechcete skončit s těmi hrátkami?"
 
 #. [message]: description=Adena
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:123
 msgid "Verillium nur thel nannis, sefiel se na morstallin."
-msgstr ""
+msgstr "Verillium nur thel nannis, sefiel se na morstallin."
 
 #. [message]: description=Lahias
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:127
 msgid "Well, great, can someone tell me WHAT IS THIS ALL ABOUT?"
-msgstr ""
+msgstr "No skvěle, může mi někdo říct O CO SE TU JEDNÁ?"
 
 #. [message]: description=Sidonia
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:131
@@ -2789,17 +2789,18 @@ msgid ""
 "Verillium nur thel nannis, sefiel se na morstallin. Anyone who avoid death, "
 "will in time become her messenger."
 msgstr ""
+"Verillium nur thel nannis, sefiel se na morstallin. Každý, kdo se vyhýbá "
+"smrti, se časem stane jejím poslem."
 
 #. [message]: description=Lahias
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:135
-#, fuzzy
 msgid "Whaaaat?"
-msgstr "Co?"
+msgstr "Cooo?"
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:139
 msgid "You will be one of the bad guys, if I understand it well."
-msgstr ""
+msgstr "Staneš se jedním z těch špatných, pokud tomu dobře rozumím."
 
 #. [message]: description=Sidonia
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:143
@@ -2809,11 +2810,18 @@ msgid ""
 "of the ancient propheny: Young and brave, but full of hate, whenever will "
 "find a blade, end of circle end of pain, it will become his quest main."
 msgstr ""
+"Neboj se. Můžeš se stát velmi mocným elfem. Na té správné straně konfliktu "
+"samozřejmě. Jsi jediný, kdo porazí velkou temnotu. Jsi součástí prastaré "
+"věštby:\n"
+"Mladý a statečný, však plný nenávisti,\n"
+"kdykoli s čepelí hladově obnaženou,\n"
+"je konec skutečný, toho kruhu bolesti,\n"
+"co bude jeho hlavní šancí napřaženou.  "
 
 #. [message]: description=Lahias
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:147
 msgid "Me? I will become a great hero?"
-msgstr ""
+msgstr "Já? Já se stanu velkým hrdinou?"
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:151
@@ -2821,11 +2829,13 @@ msgid ""
 "Nerelia was a priestess of the very old order. She was born to make you "
 "safe, until you will be strong enought to..."
 msgstr ""
+"Nerelie je kněžkou prastarého řádu. Narodila se, aby tě ochránila, dokud "
+"nezesílíš tak, abys..."
 
 #. [message]: description=Lahias
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:155
 msgid "To deal with a great evil?"
-msgstr ""
+msgstr "Se vypořádal s velkým zlem?"
 
 #. [message]: description=Sidonia
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:174
@@ -2833,11 +2843,13 @@ msgid ""
 "Yes. Now, you must gather your strengh as quickly as possible. Choose "
 "someone from us, who will be your trainer."
 msgstr ""
+"Ano. Teď musíš nabrat svou sílu, tak rychle jak to jen půjde. Vyber si "
+"někoho z nás, kdo se stane tvým cvičitelem."
 
 #. [message]: description=Lahias
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:178
 msgid "Very well, my choice is:"
-msgstr ""
+msgstr "Dobře, moje volba je:"
 
 #. [message]: description=Adena
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:185
@@ -2846,6 +2858,8 @@ msgid ""
 "prepared to create great flames and burn your enemies. You will become a red "
 "mage."
 msgstr ""
+"Lesy mají dlouhou historii, plnou cti a hrůzy. S mou pomocí budeš připraven "
+"sesílat žhavé plameny a smažit své nepřátele. Staneš se červeným mágem."
 
 #. [message]: description=Lahias
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:214
@@ -2853,7 +2867,7 @@ msgstr ""
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:298
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:339
 msgid "Great! Nobody can stand in my way now!"
-msgstr ""
+msgstr "Výtečně. Teď mi nikdo nestojí v cestě!"
 
 #. [message]: description=Merhil
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:227
@@ -2861,6 +2875,8 @@ msgid ""
 "Want to know, what a real leader need? It's respect. You will be strong as a "
 "rock, and your warriors will want to be like you Lahias, Elvish Captain."
 msgstr ""
+"Chceš vědět, co potřebuje skutečný vůdce? Je to respekt. Staneš se silným "
+"jako skála a tví bojovníci budou chtít být jako ty, Lahiasi, elfí kapitáne."
 
 #. [option]: description=Lahias
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:265
@@ -2874,6 +2890,8 @@ msgid ""
 "the powers of the moon. From today, you will be one of the most powerful "
 "silver rangers."
 msgstr ""
+"Lesy jsou v noci temné, plné děsu. Staň se nebojácným hraničářem, přivlastni "
+"si sílu Měsíce. Odteď budeš jedním z nejsilnějších stříbrných hraničářů."
 
 #. [message]: description=Sidonia
 #: The_Three_Elves/scenarios/Interlude2_a_new_way.cfg:311
@@ -2881,6 +2899,8 @@ msgid ""
 "As you wish, my little hero. With your fighting ability and my magic power, "
 "you will become a powerful elvish lord."
 msgstr ""
+"Jak si přeješ, můj malý hrdino. Pomocí tvých bojových schopností a mé "
+"magické síly z tebe uděláme mocného elfího lorda."
 
 #. [scenario]: id=Interlude - River crossing
 #: The_Three_Elves/scenarios/Interlude_river_crossing.cfg:5
@@ -2889,13 +2909,12 @@ msgstr "Mezihra - Překročení řeky"
 
 #. [part]
 #: The_Three_Elves/scenarios/Interlude_river_crossing.cfg:20
-#, fuzzy
 msgid ""
 "Lahias is on his own quest - trying to kill one of the liches. Will he be "
 "able to bring the end to the lich and avoid his own destruction?"
 msgstr ""
-"Lahias plní svůj vlastní úkol - zabít jednoho z lichů. Podaří se mu uniknout "
-"smrti?"
+"Lahias plní svůj vlastní úkol - pokouší se zabít jednoho z lichů. Podaří se "
+"mu zničit liche a uniknout své vlastní destrukci?"
 
 #. [objective]: condition=lose
 #: The_Three_Elves/scenarios/Interlude_river_crossing.cfg:62
@@ -2904,11 +2923,10 @@ msgstr "Lahias zemře"
 
 #. [message]: description=Lahias
 #: The_Three_Elves/scenarios/Interlude_river_crossing.cfg:78
-#, fuzzy
 msgid ""
 "Taste my steel and rest in pieces! You cannot avoid your innevitable death, "
 "lich!"
-msgstr "Okus mou ocel! Rozsekám tě na kusy! Nemůžeš se vyhnout smrti, lichi!"
+msgstr "Okus mou ocel! Ať jsi na kusy! Nevyhnutelná smrt tě nemine, lichi!"
 
 #. [message]: description=Tademanar
 #: The_Three_Elves/scenarios/Interlude_river_crossing.cfg:82
@@ -2917,12 +2935,11 @@ msgstr "Smrt? HA-HA-HA"
 
 #. [message]: speaker=Lahias
 #: The_Three_Elves/scenarios/Interlude_river_crossing.cfg:138
-#, fuzzy
 msgid ""
 "It would be wise to wait until the dawn. The attacks of that lich will be "
 "much weaker during the day."
 msgstr ""
-"Bylo by moudřejší počkat na svítání. Útok toho liche bude během dne mnohem "
+"Bylo by moudřejší počkat na svítání. Útoky toho liche budou během dne mnohem "
 "slabší."
 
 #. [message]: speaker=Lahias
@@ -2932,18 +2949,17 @@ msgstr "To je tvůj konec, lichi!"
 
 #. [message]: speaker=Lahias
 #: The_Three_Elves/scenarios/Interlude_river_crossing.cfg:149
-#, fuzzy
 msgid ""
 "What?! What is happening to me? Aaaaaargh! Every part of my body hurts me! "
 "I... I... I feel the dark energy!"
 msgstr ""
-"Cože? Co se to se mnou děje? Aaaaaaaaargh! Všecko mě bolí! Já... Já... já "
-"cítím temnou energii!"
+"Co?! Co se to se mnou děje? Aaaaaaaaargh! Celé mé tělo mě bolí! Já... Já... "
+"já cítím temnou energii!"
 
 #. [unit]: id=Grey Ranger, race=elf
 #: The_Three_Elves/units/elves/Grey_Ranger.cfg:3
 msgid "Grey Ranger"
-msgstr ""
+msgstr "Šedý hraničář"
 
 #. [unit]: id=Grey Ranger, race=elf
 #: The_Three_Elves/units/elves/Grey_Ranger.cfg:19
@@ -2954,11 +2970,15 @@ msgid ""
 "similar to that of rogues. Their fighting abilities are most effective "
 "during the nighttime."
 msgstr ""
+"Šedí hraničári jsou velmi zvláštní elfí válečníci. Jsou něčím mezi běžnými "
+"hraničáři a lupiči. Vyznačují se tím, že umí účinně střílet z luku. Když se "
+"dostanou do boje v tváří tvář, používají zvláštní dýky, podobné těm, co mají "
+"lupiči. Jejich bojové schopnosti se nejlépe projevují v noci."
 
 #. [attack]: type=pierce
 #: The_Three_Elves/units/elves/Grey_Ranger.cfg:38
 msgid "dagger"
-msgstr ""
+msgstr "dýka"
 
 #. [attack]: type=pierce
 #. [attack]: type=fire
@@ -2971,13 +2991,12 @@ msgstr ""
 #: The_Three_Elves/units/elves/Grey_Ranger.cfg:50
 #: The_Three_Elves/units/elves/Guardian.cfg:43
 msgid "bow"
-msgstr ""
+msgstr "luk"
 
 #. [unit]: id=Elvish Guardian, race=elf
 #: The_Three_Elves/units/elves/Guardian.cfg:4
-#, fuzzy
 msgid "Elvish Guardian"
-msgstr "Elfí lord"
+msgstr "Elfí strážce"
 
 #. [unit]: id=Elvish Guardian, race=elf
 #: The_Three_Elves/units/elves/Guardian.cfg:27
@@ -2988,6 +3007,11 @@ msgid ""
 "their positions for very long. Elvish guardians are slow, because they are "
 "bearing a very strange bronze armor."
 msgstr ""
+"Ne všichni elfové jsou hbití lučištníci. Malá skupinka elfů praktikuje boj "
+"na blízko jako královské stráže nebo doprovod pomalých obchodních karavan. "
+"Elfí strážci mají slabý útok na dálku, ale když jsou dobře léčeni, jsou "
+"schopni velmi dlouho držet svou pozici. Elfí strážci jsou pomalí, protože "
+"nosí podivné bronzové brnění."
 
 #. [attack]: type=arcane
 #. [attack]: type=blade
@@ -2995,12 +3019,12 @@ msgstr ""
 #: The_Three_Elves/units/elves/Moon_Ranger.cfg:40
 #: The_Three_Elves/units/elves/Guardian.cfg:31
 msgid "sword"
-msgstr ""
+msgstr "meč"
 
 #. [unit]: id=Moon Ranger, race=elf
 #: The_Three_Elves/units/elves/Moon_Ranger.cfg:3
 msgid "Moon Ranger"
-msgstr ""
+msgstr "Měsíční hraničář"
 
 #. [unit]: id=Moon Ranger, race=elf
 #: The_Three_Elves/units/elves/Moon_Ranger.cfg:19
@@ -3013,12 +3037,18 @@ msgid ""
 "the forest. Moon rangers are the secret enemy of the necromancers, with "
 "improved defense against their cold attacks."
 msgstr ""
+"Měsíční hraničáři jsou těmi nejlepšími lesními válečníky. Obdarováni "
+"strašlivou silou vysílanou Měsícem, jsou po absolvování extrémě těžkého "
+"tréninku schopni bojovat i v těch nekrvavějších bitvách. Umí také poskytnout "
+"okolo stojícím spojencům ošetření. Všechny tyto válečníky sžírá silný "
+"vnitřní oheň, který, když nejsou skryti v lese, je již zdaleka znatelný. "
+"Měsíční hraničáři jsou tajnými nepřáteli nekromatů a disponují vyšší "
+"odolností vůči jejich útokům chladem."
 
 #. [unit]: id=Silver Ranger, race=elf
 #: The_Three_Elves/units/elves/Silver_Ranger.cfg:3
-#, fuzzy
 msgid "Silver Ranger"
-msgstr "Mstitel"
+msgstr "Stříbrný hraničář"
 
 #. [unit]: id=Silver Ranger, race=elf
 #: The_Three_Elves/units/elves/Silver_Ranger.cfg:19
@@ -3031,6 +3061,12 @@ msgid ""
 "arrows. Their skills get better at night, especially against cold and pierce "
 "attacks."
 msgstr ""
+"Silní a dobře trénovaní šedí hraničáři se stávají stříbrnými hraničáři. Tito "
+"válečníci skvěle ovládají boj s mečem, ale jsou dobří i v lukostřelbě. "
+"Jejich výzbroj se liší od té, co mají šedí hraničáři. Stříbrní hraničáři "
+"používají exotické meče místo dýk, což je činí silnějšími, ale znemožňuje "
+"jim to útočit zezadu. Také umí střílet ohnivé šípy. Jejich dovednosti v noci "
+"rostou. Zvlášť se to projevuje v odolnosti proti útokům chladem a bodnutím.  "
 
 #~ msgid "One of your fighters, Zerenhil, will be trained as:"
 #~ msgstr "Jeden z tvých bojovníků, Zerenhil, bude trénovaný jako:"
